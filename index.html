@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+  <title>Abstract form layout</title>
+  <link rel='stylesheet' type='text/css' href = 'main.css'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'> 
+</head>
+<body>
+  <form id="data-to-send">
+    <div class='container'>
+      <label for='id1'>First label with multiple lines actually three</label>
+      <input type='text' id='id1' name='id1' value='alpha'>
+      <label for='id2'>Second label</label>
+      <input type='text' id='id2' name='id2' value='beta'>
+      <label for='id3'>Third label</label>
+      <input type='text' id='id3' name='id3' value='gamma'>
+      <label for='id4'>Fourth label for multiple selections</label>
+      <div class='multi group' id='id4'>
+        <div>First option</div>
+        <div>Second option</div>
+        <div>Third option</div>
+        <div>Fourth option</div>
+        <div>Fifth option</div>
+        <div>Sixth option</div>
+        <div>Seventh option</div>
+        <div>Eighth option</div>
+      </div>
+      <label for='id5'>Fifth label for single selection</label>
+      <div class='single group' id='id5'>
+        <div>First option</div>
+        <div>Second option</div>
+        <div>Third option</div>
+        <div>Fourth option</div>
+        <div>Fifth option</div>
+        <div>Sixth option</div>
+        <div>Seventh option</div>
+        <div>Eighth option</div>
+      </div>
+      <input type='button' id='submit-button' value="Submit">
+    </div>
+  </form>
+  <script src='main.js'></script>
+</body>
+</html>
