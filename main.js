@@ -42,7 +42,7 @@ async function submitData() {
     method: 'POST',
     body: dataToSend
   });
-  const response = await response.json();
+  const result = await response.json();
 
   alert(result.message);
   // for (let entry of dataToSend)
