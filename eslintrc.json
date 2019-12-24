@@ -1,0 +1,20 @@
+{
+  "extends": "google",
+  "env": {
+    "node": true,
+    "es6": true,
+    "browser": true
+  },
+  "rules": { 
+    "linebreak-style": 0,
+    "require-jsdoc": ["error", {
+      "require": {
+        "FunctionDeclaration": false,
+        "MethodDefinition": false,
+        "ClassDeclaration": false,
+        "ArrowFunctionExpression": false,
+        "FunctionExpression": false
+      }
+    }]
+  }
+}
